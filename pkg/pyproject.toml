@@ -3,7 +3,7 @@ name = "db_oracle_get_mcp"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = [
     "mcp[cli]>=1.11.0",
     "oracledb>=3.2.0",
@@ -17,3 +17,7 @@ default = true
 [project.scripts]
 db_oracle_get_mcp = "db_oracle_get_mcp:main"
 dev = "db_oracle_get_mcp_sse:dev"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
