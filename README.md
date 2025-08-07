@@ -31,30 +31,57 @@
 
 ## 使用说明
 
-1. stdio 模式
-
 克隆仓库到本地
 ```bash
-
+git clone https://github.com/jobslee0/mcp-oracle-11g.git
 ```
+
+1. stdio 模式
 
 配置客户端及变量
 
-```bash
+模式：`stdio`
 
+命令：`uv`
+
+参数：
+```bash
+--directory
+E:\path\to\local\pkg
+run
+db_oracle_get_mcp
+```
+
+环境变量：
+```bash
+ORACLE_USER=用户名
+ORACLE_PASSWORD=密码
+ORACLE_URL=数据库路径，譬如127.0.0.1:1521/xxx
+ORACLE_HOME=Oracle客户端路径，譬如path\to\instantclient_xxx
 ```
 
 2. sse 模式
 
+配置和启动项目
+
 修改 .env 文件
 ```bash
-
+ORACLE_USER=用户名
+ORACLE_PASSWORD=密码
+ORACLE_URL=数据库路径，譬如127.0.0.1:1521/xxx
+ORACLE_HOME=Oracle客户端路径，譬如path\to\instantclient_xxx
 ```
 
 启动 sse 服务
 ```bash
-
+python run.py
 ```
+
+配置客户端及变量
+
+模式：`sse`
+
+URL：`http://127.0.0.1:8000/sse`
 
 ## 许可证
 
