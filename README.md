@@ -24,9 +24,9 @@
 
 ## 变量说明
 
-`ORACLE_USER` 数据库用户名：譬如 `system`
-`ORACLE_PASSWORD` 数据库密码：譬如 `password`
-`ORACLE_URL` 数据库连接地址：譬如 `localhost:1521/orcl`
+`ORACLE_USER` 数据库用户名：譬如 `system`  
+`ORACLE_PASSWORD` 数据库密码：譬如 `password`  
+`ORACLE_URL` 数据库连接地址：譬如 `localhost:1521/orcl`  
 `ORACLE_HOME` Oracle 客户端路径：譬如 `C:\oracle\instantclient_19_8`
 
 ## 使用说明
@@ -54,9 +54,9 @@ db_oracle_get_mcp
 
 环境变量：
 ```bash
-ORACLE_USER=用户名
-ORACLE_PASSWORD=密码
-ORACLE_URL=数据库路径，譬如127.0.0.1:1521/xxx
+ORACLE_USER=用户名  
+ORACLE_PASSWORD=密码  
+ORACLE_URL=数据库路径，譬如127.0.0.1:1521/xxx  
 ORACLE_HOME=Oracle客户端路径，譬如path\to\instantclient_xxx
 ```
 
@@ -66,10 +66,10 @@ ORACLE_HOME=Oracle客户端路径，譬如path\to\instantclient_xxx
 
 修改 .env 文件
 ```bash
-ORACLE_USER=用户名
-ORACLE_PASSWORD=密码
-ORACLE_URL=数据库路径，譬如127.0.0.1:1521/xxx
-ORACLE_HOME=Oracle客户端路径，譬如path\to\instantclient_xxx
+ORACLE_USER=用户名  
+ORACLE_PASSWORD=密码  
+ORACLE_URL=数据库路径，譬如127.0.0.1:1521/xxx  
+ORACLE_HOME=Oracle客户端路径，譬如path\to\instantclient_xxx  
 ```
 
 启动 sse 服务
