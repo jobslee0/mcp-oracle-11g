@@ -42,7 +42,7 @@ git clone https://github.com/jobslee0/mcp-oracle-11g.git
 
 ```bash
 cd mcp-oracle-11g\pkg
-pip install -e .
+uv build
 ```
 
 配置客户端及变量
@@ -54,7 +54,7 @@ pip install -e .
 参数：
 ```bash
 --directory
-E:\path\to\local\pkg
+E:\path\to\local\pkg\dist
 run
 db_oracle_get_mcp
 ```
