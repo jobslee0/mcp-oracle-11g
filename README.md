@@ -38,6 +38,13 @@ git clone https://github.com/jobslee0/mcp-oracle-11g.git
 
 1. stdio 模式
 
+项目包install
+
+```bash
+cd mcp-oracle-11g\pkg
+pip install -e .
+```
+
 配置客户端及变量
 
 模式：`stdio`
